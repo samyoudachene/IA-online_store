@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products - DzFashion AI</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <div class="logo">DzFashion AI</div>
+
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+    </nav>
+  </div>
+</header>
+
+<section class="container" style="padding:40px 0;">
+  <h1>Our Products</h1>
+
+  <div style="margin:20px 0; display:flex; gap:10px; flex-wrap:wrap;">
+    <select id="filterGender">
+      <option value="all">All</option>
+      <option value="men">Men</option>
+      <option value="women">Women</option>
+      <option value="kids">Kids</option>
+      <option value="sportswear">Sportswear</option>
+    </select>
+
+    <select id="filterCategory">
+      <option value="all">All Categories</option>
+      <option value="tshirt">T-shirts</option>
+      <option value="jeans">Jeans</option>
+      <option value="dress">Dresses</option>
+      <option value="tracksuit">Tracksuits</option>
+    </select>
+
+    <input id="searchInput" placeholder="Search product..." />
+  </div>
+
+  <div id="productsGrid" class="products-grid"></div>
+</section>
+
+<script src="js/products.js"></script>
+</body>
+</html>

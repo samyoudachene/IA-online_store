@@ -1,0 +1,22 @@
+{
+  "en": {
+    "welcome": "Hello! What are you looking for?",
+    "budget": "What is your budget?",
+    "gender": "For men, women, kids or sportswear?"
+  },
+  "fr": {
+    "welcome": "Bonjour ! Que cherchez-vous ?",
+    "budget": "Quel est votre budget ?",
+    "gender": "Pour hommes, femmes, enfants ou sport ?"
+  },
+  "ar": {
+    "welcome": "مرحباً! ماذا تبحث؟",
+    "budget": "ما هو ميزانيتك؟",
+    "gender": "للرجال أم النساء أم الأطفال أم الرياضة؟"
+  },
+  "kab": {
+    "welcome": "Azul! D acu i tettnadiḍ?",
+    "budget": "Acḥal d lbuḍeṭ?",
+    "gender": "Irgazen, tilawin, arrac neɣ sport?"
+  }
+}

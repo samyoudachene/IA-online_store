@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DzFashion AI</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <div class="logo">DzFashion AI</div>
+
+    <nav class="menu">
+      <a data-i18n="home" href="index.html">Home</a>
+      <a data-i18n="products" href="products.html">Products</a>
+      <a data-i18n="about" href="#">About</a>
+      <a data-i18n="contact" href="#">Contact</a>
+    </nav>
+
+    <div class="nav-right">
+      <select id="languageSwitcher">
+        <option value="en">EN</option>
+        <option value="fr">FR</option>
+        <option value="ar">AR</option>
+        <option value="kab">KAB</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<section class="hero container">
+  <div class="hero-text">
+    <p class="small-title">NEW COLLECTION</p>
+
+    <h1 data-i18n="heroTitle">
+      Minimal Fashion,<br>Smart Shopping.
+    </h1>
+
+    <p data-i18n="heroText">
+      Discover fashion with intelligent shopping assistance.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="products.html" class="btn dark" data-i18n="shopNow">Shop Now</a>
+      <button class="btn light" id="openChatBtn">Ask AI</button>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <img src="C:\Users\lenovo\OneDrive\Bureau\PFE Claude\assets\images\pngtree-standing-man-in-a-white-tshirt-blank-canvas-t-shirt-mockup-png-image_13949559.png" alt="Fashion">
+  </div>
+</section>
+
+<button class="chat-bubble" id="chatBubble">💬</button>
+
+<div class="chat-modal" id="chatModal">
+  <div class="chat-header">
+    <h3>DzFashion Assistant</h3>
+    <button id="closeChat">✕</button>
+  </div>
+
+  <div class="chat-body" id="chatMessages">
+    <div class="bot-message">
+      Hello 👋 Tell me what you're looking for.
+    </div>
+  </div>
+
+  <div class="chat-input">
+    <input id="chatInput" type="text" placeholder="Type here...">
+    <button id="sendBtn">Send</button>
+  </div>
+</div>
+
+<script src="js/ai-engine.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

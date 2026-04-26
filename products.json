@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "gender": "men",
+    "category": "tshirt",
+    "name": {
+      "en": "Basic White T-shirt",
+      "fr": "T-shirt blanc basique",
+      "ar": "قميص أبيض بسيط",
+      "kab": "T-shirt amellal afessas"
+    },
+    "price": 1200,
+    "stock": 10,
+    "sizes": ["S","M","L","XL"],
+    "colors": ["white","black"],
+    "image": "assets/images/men1.jpg"
+  },
+  {
+    "id": 2,
+    "gender": "men",
+    "category": "jeans",
+    "name": {
+      "en": "Slim Fit Jeans",
+      "fr": "Jean slim",
+      "ar": "جينز ضيق",
+      "kab": "Jean slim"
+    },
+    "price": 3500,
+    "stock": 6,
+    "sizes": ["S","M","L","XL"],
+    "colors": ["blue","black"],
+    "image": "assets/images/men2.jpg"
+  },
+  {
+    "id": 3,
+    "gender": "women",
+    "category": "dress",
+    "name": {
+      "en": "Elegant Dress",
+      "fr": "Robe élégante",
+      "ar": "فستان أنيق",
+      "kab": "Taqchilt zzin"
+    },
+    "price": 5000,
+    "stock": 4,
+    "sizes": ["S","M","L"],
+    "colors": ["red","black"],
+    "image": "assets/images/women1.jpg"
+  },
+  {
+    "id": 4,
+    "gender": "sportswear",
+    "category": "tracksuit",
+    "name": {
+      "en": "Sport Tracksuit",
+      "fr": "Survêtement sport",
+      "ar": "بدلة رياضية",
+      "kab": "Takti n sport"
+    },
+    "price": 4500,
+    "stock": 8,
+    "sizes": ["M","L","XL"],
+    "colors": ["black","gray"],
+    "image": "assets/images/sport1.jpg"
+  }
+]

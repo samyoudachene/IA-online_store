@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout - DzFashion AI</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <div class="logo">DzFashion AI</div>
+  </div>
+</header>
+
+<section class="container" style="padding:40px 0;">
+  <h1>Checkout (Cash on Delivery)</h1>
+
+  <form id="checkoutForm">
+    <input type="text" placeholder="Full Name" required><br><br>
+    <input type="text" placeholder="Phone Number" required><br><br>
+    <input type="text" placeholder="Address" required><br><br>
+    <input type="text" placeholder="City / Wilaya" required><br><br>
+
+    <button class="btn dark" type="submit">Confirm Order</button>
+  </form>
+
+  <p id="msg"></p>
+</section>
+
+<script>
+document.getElementById("checkoutForm").addEventListener("submit", function(e){
+  e.preventDefault();
+
+  localStorage.removeItem("cart");
+
+  document.getElementById("msg").innerText =
+    "Order placed successfully! You will pay on delivery.";
+});
+</script>
+
+</body>
+</html>
