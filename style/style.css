@@ -273,3 +273,56 @@ select{
     right:4%;
   }
 }
+/* --- Grille des produits --- */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/* --- Style de la carte produit --- */
+.product-card {
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 18px;
+  border: 1px solid #eee;
+  display: flex;
+  flex-direction: column; /* Permet d'aligner les éléments de haut en bas */
+  align-items: center;
+  text-align: center;
+  transition: .3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+/* --- La solution pour tes images --- */
+.product-card img {
+  width: 100%;
+  height: 280px; /* Tu peux modifier cette valeur selon tes préférences */
+  object-fit: cover; /* L'image remplit la zone sans s'écraser ni s'étirer */
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* --- Ajustements du texte dans la carte --- */
+.product-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-card .price {
+  font-weight: bold;
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+/* --- Bouton "Add to cart" --- */
+.product-card .btn {
+  margin-top: auto; /* Astuce : pousse le bouton tout en bas même si les titres ont des tailles différentes */
+  width: 100%;
+}
