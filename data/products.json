@@ -13,7 +13,7 @@
     "stock": 10,
     "sizes": ["S","M","L","XL"],
     "colors": ["white","black"],
-    "image": "assets/images/men1.jpg"
+    "image": "assets/images/men4.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
     "stock": 6,
     "sizes": ["S","M","L","XL"],
     "colors": ["blue","black"],
-    "image": "assets/images/men2.jpg"
+    "image": "assets/images/j6.png"
   },
   {
     "id": 3,
@@ -62,5 +62,85 @@
     "sizes": ["M","L","XL"],
     "colors": ["black","gray"],
     "image": "assets/images/sport1.jpg"
+  },
+  {
+    "id": 5,
+    "gender": "men",
+    "category": "tshirt",
+    "name": {
+      "en": "Blue T-shirt",
+      "fr": "Blue T-shirt",
+      "ar": "قميص أبيض بسيط",
+      "kab": "T-shirt amellal afessas"
+    },
+    "price": 1200,
+    "stock": 10,
+    "sizes": ["S","M","L","XL"],
+    "colors": ["blue","black"],
+    "image": "assets/images/men6.png"
+  },
+  {
+        "id": 6,
+    "gender": "men",
+    "category": "jeans",
+    "name": {
+      "en": "Slim Fit Jeans",
+      "fr": "Jean slim",
+      "ar": "جينز ضيق",
+      "kab": "Jean slim"
+    },
+    "price": 3500,
+    "stock": 6,
+    "sizes": ["S","M","L","XL"],
+    "colors": ["blue","black"],
+    "image": "assets/images/j1.png"
+  },
+  {
+        "id": 7,
+    "gender": "men",
+    "category": "shoes",
+    "name": {
+      "en": "shoes",
+      "fr": "shoes",
+      "ar": "جينز ضيق",
+      "kab": "Jean slim"
+    },
+    "price": 3500,
+    "stock": 6,
+    "sizes": ["S","M","L","XL"],
+    "colors": ["blue","black"],
+    "image": "assets/images/s0.png"
+  },
+  {
+            "id": 8,
+    "gender": "men",
+    "category": "tshirt",
+    "name": {
+      "en": "T-shirt",
+      "fr": "T-shirt",
+      "ar": "جينز ضيق",
+      "kab": "Jean slim"
+    },
+    "price": 3500,
+    "stock": 6,
+    "sizes": ["S","M","L","XL"],
+    "colors": ["blue","black"],
+    "image": "assets/images/men3.jfif"
+  },
+    {
+            "id": 9,
+    "gender": "men",
+    "category": "tshirt",
+    "name": {
+      "en": "T-shirt",
+      "fr": "T-shirt",
+      "ar": "جينز ضيق",
+      "kab": "Jean slim"
+    },
+    "price": 3500,
+    "stock": 6,
+    "sizes": ["S","M","L","XL"],
+    "colors": ["blue","black"],
+    "image": "assets/images/men9.jfif"
   }
 ]
